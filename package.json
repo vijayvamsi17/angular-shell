@@ -21,7 +21,11 @@
     "@angular/router": "~11.0.4",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "company-custom-components": "git+https://github.com/vijayvamsi17/company-custom-components.git",
+    "app-lib": "git+https://github.com/vijayvamsi17/angular-react-library.git",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1100.4",
@@ -40,6 +44,8 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.0.2"
+    "typescript": "~4.0.2",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4"
   }
 }
