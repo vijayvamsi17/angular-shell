@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/angular/header/header.component';
 import { HomeComponent } from './components/angular/home/home.component';
 import { AppRoutingModule } from './app.routing.module';
 import { FooterComponent } from './components/angular/footer/footer.component';
+import { ReactAppComponent } from './components/angular/react-app-component/react-app-component.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FooterComponent } from './components/angular/footer/footer.component';
     MyComponentWrapperComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ReactAppComponent
   ],
   imports: [
     BrowserModule,
